@@ -1,0 +1,89 @@
+.overflow-y {
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.mobile-filter-sticky {
+    display: block;
+    z-index: 99;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    right: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.mobile-filter-sticky img {
+    height: 20px;
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+    .mobile-filter-hide {
+        display: none;
+    }
+    .mobile-filter-show {
+        display: block;
+    }
+    .mobile-filter-sticky {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .mobile-filter-hide {
+        display: block;
+    }
+    .mobile-filter-show {
+        display: none;
+    }
+    .mobile-filter-sticky {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .mobile-filter-hide {
+        display: none;
+    }
+    .mobile-filter-show {
+        display: block;
+    }
+    .mobile-filter-sticky {
+        display: block;
+    }
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.logo-size {
+    height: 70px;
+}
+
+/**
+ * Home Page CSS
+*/
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.container {
+    max-width: 960px;
+}
+
+.pricing-header {
+    max-width: 700px;
+}

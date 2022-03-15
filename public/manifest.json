@@ -1,0 +1,25 @@
+{
+    "short_name": "VFA",
+    "name": "Buy & Sell your automobile at Best Price",
+    "icons": [{
+            "src": "vfa_logo.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "vfa_logo_standalone.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "vfa_logo_standalone.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "theme_color": "#e34d20",
+    "background_color": "#FFFFFF",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+}
